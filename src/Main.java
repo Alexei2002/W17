@@ -35,7 +35,7 @@ public class Main {
         int teacher3Students = 30;
         int totalCountOfPaper = 480;
 
-        System.out.println("На каждого ученика рассчитано " + ((totalCountOfPaper / teacher1Students + teacher2Students + teacher3Students)) + " листов бумаги");
+        System.out.println("На каждого ученика рассчитано " + (totalCountOfPaper / (teacher1Students + teacher2Students + teacher3Students)) + " листов бумаги");
 
 
         System.out.println("example 4");
